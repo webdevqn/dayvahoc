@@ -9,6 +9,7 @@
 5. Go to Disk C > Windows > System32 > Drivers > etc.
 6. Copy hosts file in etc to Desktop and configurate there, then copy back to etc folder to replace.
 7. The content which is needed to change is: Add a new line to get a virtual domain dayvahoc.vu, any name you want is ok.
+    - The content to add is: 127.0.0.1  dayvahoc.vu
 8. Remember copy back to etc folder and surely overwrite it.
 9. Stop Xampp
 10. Go to Xampp > Apache > Conf > extra 
