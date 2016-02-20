@@ -2,6 +2,7 @@
 1. Go to console CMD: 
     - cd /d d:\Your xampp folder\htdocs
     - git clone git@github.com:webdevqn/dayvahoc.git
+    - cd dayvahoc
     - composer install
 2. Go to folder dayvahoc copy .env-example to be a new file named .env, if IDE does not show hidden files, go Google to do it.
 3. Open Xampp and start Apache and MySQL to create a new database: dayvahoc in unicode UTF8
