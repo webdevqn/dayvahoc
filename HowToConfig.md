@@ -14,13 +14,12 @@
 10. Go to Xampp > Apache > Conf > extra 
 11. Open file v-host and configurate it.
 12. Copy 2 lines into its bottom: 1 for localhost, 1 for dayvahoc.vu
-<VirtualHost *:80>
-    DocumentRoot "E:/Your Path To Xampp/xampp/htdocs"
+
+    DocumentRoot "Your Path To Xampp/xampp/htdocs"
     ServerName localhost
-</VirtualHost>
-<VirtualHost *:80>
-    DocumentRoot "E:/Your Path To Xampp/xampp/htdocs/dayvahoc/public"
+
+    DocumentRoot "Your Path To Xampp/xampp/htdocs/dayvahoc/public"
     ServerName dayvahoc.vu
-</VirtualHost>
+
 13. Restart Xampp
 14. Open browser and open dayvahoc.vu to get the Laravel Screen
